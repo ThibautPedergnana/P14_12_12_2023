@@ -1,0 +1,17 @@
+.create-employee .link-list {
+  color: #3232da;
+  cursor: pointer;
+}
+
+.create-employee .container form,
+.create-employee .container form .address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.success-create {
+  font-weight: bold;
+  font-size: 18px;
+}

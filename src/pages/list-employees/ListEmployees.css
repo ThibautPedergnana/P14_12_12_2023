@@ -1,0 +1,31 @@
+.list-employees {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.list-employees .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.list-employees .header .link-list {
+  color: #3232da;
+  cursor: pointer;
+}
+
+.list-employees .header-options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.select-section {
+  gap: 5px;
+  display: flex;
+}
